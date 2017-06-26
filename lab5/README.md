@@ -14,5 +14,9 @@ Recurrent neural networks (RNN) are the workhorse in deep learning problems invo
 
 * Exercise 2 : Learn 4 digit sequences of numbers formed from MNIST dataset
 
-* Question 1 : How does LSTM cell help alleviate the vanishing or exploding gradient problem present in vanilla RNN 
+* Exercise 3 : Code LSTM network to generate [speeches of Dr A P J Abdul Kalam](http://www.abdulkalam.com/kalam/theme/jsp/guest/content-display-more.jsp) 
+
+* Question 1 : How does LSTM cell help alleviate the vanishing or exploding gradient problem present in vanilla RNN.
+
+* Question 2 : What is the differnce between stateful and stateless RNNs ? 
 
