@@ -18,5 +18,15 @@ Recurrent neural networks (RNN) are the workhorse in deep learning problems invo
 
 * Question 1 : How does LSTM cell help alleviate the vanishing or exploding gradient problem present in vanilla RNN.
 
-* Question 2 : What is the differnce between stateful and stateless RNNs ? 
+* Question 2 : What is the difference between stateful and stateless RNNs ? 
 
+
+## Problem 2: Image Captioning
+
+* Dataset: MS COCO, MS COCO captions 
+
+* Problem statement: Given a dataset of images and their captions (sentence descriptions), train a network to generate captions for novel images. The network we demonstrate here consists of a CNN encoder and RNN decoder. 
+
+* Exercise 1: Test the network over few images of your choice. Can you reason about the success and failure cases.
+
+* Question 1: What changes are required in the architecture to make the network focus over regions in an image. 
