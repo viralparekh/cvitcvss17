@@ -2,7 +2,7 @@
 
 The recent work in the deep learning which combines visual and liguistic cues include image captioning, multimodal retrieval and visual question answering. Through toy problems this lab tutorial session intends to introduce basic programming concepts required to build deep learning models at scale. 
 
-## Problem 1: Recurrent Neural Networks 
+## Problem 1: Recurrent Neural Networks [50 points, 1 hour] 
 
 Recurrent neural networks (RNN) are the workhorse in deep learning problems involving sequences. Deep language models, therefore, often use RNNs. Here, we learn to code Long Short Term Memory (LSTM) in PyTorch. 
 
@@ -12,16 +12,16 @@ Recurrent neural networks (RNN) are the workhorse in deep learning problems invo
 
 * Exercise 1 : Convert to BiLSTM, GRU, RNN
 
-* Exercise 2 : Learn 4 digit sequences of numbers formed from MNIST dataset
+* Exercise 2 (challenge) : Learn 4 digit sequences of numbers formed from MNIST dataset
 
-* Exercise 3 : Code LSTM network to generate [speeches of Dr A P J Abdul Kalam](http://www.abdulkalam.com/kalam/theme/jsp/guest/content-display-more.jsp) 
+* Exercise 3 (challenge) : Code LSTM network to generate [speeches of Dr A P J Abdul Kalam](http://www.abdulkalam.com/kalam/theme/jsp/guest/content-display-more.jsp) 
 
 * Question 1 : How does LSTM cell help alleviate the vanishing or exploding gradient problem present in vanilla RNN.
 
 * Question 2 : What is the difference between stateful and stateless RNNs ? 
 
 
-## Problem 2: Image Captioning
+## Problem 2: Image Captioning [50 points, 1 hour]
 
 * Dataset: MS COCO, MS COCO captions 
 
