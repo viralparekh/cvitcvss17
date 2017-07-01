@@ -1,12 +1,12 @@
 #!/bin/bash
 
-if [ $# -ne 1 ] ; then
-    echo "./server_setup.sh <daynum>"
+if [ $# -ne 2 ] ; then
+    echo "./server_setup.sh <daynum> <usernum>"
     exit 1
 fi
 
 day=$1
-numusers=14
+numusers=$2
 startport=8000
 interval=10
 numgpus=4
