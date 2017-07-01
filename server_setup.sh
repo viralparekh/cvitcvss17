@@ -13,10 +13,14 @@ numgpus=4
 
 DATAPATH="/users/summerschool/cvdata"
 CODEPATH="/users/summerschool/cvitcvss17"
-WORKPATH="/tmp/summerschool/user"
+WORKPATH="/tmp/summerschool"
+
+
+echo "copying data.."
+cp -av $DATAPATH/lab${day} "$WORKPATH/data/lab${day}"
 
 for i in `seq 1 $numusers` ; do
-    destdir="$WORKPATH${i}"
+    destdir="$WORKPATH/user${i}"
     mkdir -p $destdir
     cp -av $CODEPATH/lab${day} $destdir
     cd $destdir
