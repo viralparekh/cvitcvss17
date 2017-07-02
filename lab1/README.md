@@ -5,11 +5,6 @@ http://cvit.iiit.ac.in/cvsummerschool2017/
 pytorch tutorial on basics on convolutional neural networks
 
 # Lab Overview
-- How to use Jupyter notebook?
-- Pytorch basics
-    - Tensors and CUDA tensors
-    - Autograd
-    - Basic MLP with XOR example
 - Building a CNN network
     - Conv, Pooling, Fully Connected
     - Loss function (Cross entropy, MSE)
@@ -20,9 +15,9 @@ pytorch tutorial on basics on convolutional neural networks
         - Observation on learning rate, momentum, weight decay and weight regularization
         - Visualization of training, evaluation
         - Jittering and data augmentation schemes
-- Fine tuning of PubFig on CIFAR-100 dataset
+- Fine tuning of AlexNet on CUBS_200 Subset dataset
 - Visualization of layers.
-- Building a GoogleNet and ResNet.
+- Building a ResNet.
 
 # Requirements
 PyTorch
@@ -33,6 +28,6 @@ pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp27-none-li
 pip install torchvision
 
 ## Datasets
-CIFAR-10/100
-
-PubFig
+CIFAR-10
+CUBS_200
+Faces
