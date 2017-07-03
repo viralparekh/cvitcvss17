@@ -17,8 +17,8 @@ WORKPATH="/tmp/summerschool"
 
 
 echo "copying data.."
-mkdir -p $WORKPATH/data/lab${day}
-cp -r $DATAPATH/lab${day} $WORKPATH/data/lab${day}
+mkdir -p $WORKPATH/data
+cp -r $DATAPATH/lab${day} $WORKPATH/data/
 
 for i in `seq 1 $numusers` ; do
     destdir="$WORKPATH/user${i}"
