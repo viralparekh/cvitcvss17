@@ -16,9 +16,9 @@ CODEPATH="/users/summerschool/cvitcvss17"
 WORKPATH="/tmp/summerschool"
 
 
-#echo "copying data.."
-#mkdir -p $WORKPATH/data
-#cp -r $DATAPATH/lab${day} $WORKPATH/data/
+echo "copying data.."
+mkdir -p $WORKPATH/data
+cp -r $DATAPATH/lab${day} $WORKPATH/data/
 
 for i in `seq 1 $numusers` ; do
     destdir="$WORKPATH/user${i}"
